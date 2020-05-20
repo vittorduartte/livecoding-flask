@@ -1,4 +1,0 @@
-[default]
-TITLE = 'CRUD System Student'
-SQLALCHEMY_DATABASE_URI= 'sqlite:////home/vittorduartte/Documentos/livecoding-flask/database/database.db'
-SECRET_KEY = 'mysecretpass'
