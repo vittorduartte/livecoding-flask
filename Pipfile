@@ -8,6 +8,10 @@ python-dotenv = "*"
 
 [packages]
 flask = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+requests = "*"
+dynaconf = "*"
 
 [requires]
 python_version = "3.7"

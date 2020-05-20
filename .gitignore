@@ -1,5 +1,8 @@
 .ENV
 
+#Querys Files
+'Flask Live Coding Session.sql'
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
