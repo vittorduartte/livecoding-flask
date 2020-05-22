@@ -1,4 +1,4 @@
 [default]
 TITLE = 'CRUD System Student'
-SQLALCHEMY_DATABASE_URI= 'sqlite:///database/database.db'
+SQLALCHEMY_DATABASE_URI= 'sqlite:///database/banco.db'
 SECRET_KEY = 'mysecretpass'

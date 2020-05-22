@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-python-dotenv = "*"
 
 [packages]
 flask = "*"
@@ -12,6 +11,10 @@ sqlalchemy = "*"
 flask-sqlalchemy = "*"
 requests = "*"
 dynaconf = "*"
+flask-bootstrap = "*"
+sqlalchemy-serializer = "*"
+flask-wtf = "*"
+email-validator = "*"
 
 [requires]
 python_version = "3.7"
