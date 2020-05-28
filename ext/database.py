@@ -3,7 +3,7 @@ from sqlalchemy_serializer import SerializerMixin
 
 db = SQLAlchemy()
 
-class Aluno(db.Model):
+class Aluno(db.Model, SerializerMixin):
     id = db.Column(db.Integer, primary_key = True, unique = True)
     nome = db.Column(db.String(120), nullable = False)
     email = db.Column(db.String(120), nullable = False)

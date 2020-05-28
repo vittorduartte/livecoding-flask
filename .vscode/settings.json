@@ -1,9 +1,3 @@
 {
-    "sqltools.connections": [
-        {
-            "database": "${workspaceFolder}/database/database.db",
-            "dialect": "SQLite",
-            "name": "Flask Live Coding"
-        }
-    ]
+    "sqltools.connections": []
 }

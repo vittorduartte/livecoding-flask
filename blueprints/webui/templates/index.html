@@ -24,6 +24,8 @@
             <th scope="col">Email</th>
             <th scope="col">Gênero</th>
             <th scope="col">Endereço</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
         </tr>
     </thead>
     <tbody>
@@ -34,10 +36,14 @@
             <td>{{estudante.email}}</td>
             <td>{{estudante.genero}}</td>
             <td>{{estudante.endereco}}</td>
+            <td> <a href=""> <button type="button" class="btn btn-danger">Apagar</button> </a> </td>
+            <td><button class="btn btn-primary" type="button">Atualizar</button></td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
+<hr>
+<a href="{{ url_for('cadastro.cadastro') }}"><button class="btn btn-primary" type="button">Adicionar Aluno</button></a>
 </div>
 
 </div>
